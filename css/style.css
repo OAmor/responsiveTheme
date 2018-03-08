@@ -1,0 +1,267 @@
+* { -webkit-box-sizing: border-box;box-sizing: border-box }
+
+body {height: 4000px;padding-top: 50px;overflow: auto;overflow-x: hidden}
+
+/* Start Navbar */ 
+  /* For Phone */
+.navbar-header .navbar-toggle collapsed .icon-bar { background-color: #df9a02}
+
+ /* For Pc */
+.navbar-inverse,.navbar-inverse .navbar-brand a:hover{background-color: #333; border: none}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > li > a:hover,.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus { color: #333;}
+
+
+
+.navbar-inverse .navbar-nav > li > a{ font-weight: bold; font-size: 20px; margin-left: 5px}
+
+.navbar-inverse .navbar-nav > .open > a,.navbar-inverse .navbar-nav > .open > a:hover,.navbar-inverse .navbar-nav > .open > a:focus { color: #333}
+.navbar-nav > li > .dropdown-menu { background-color: #333;  border-radius: 0 0 10px 10px; left: 0; right: auto }
+.dropdown-menu > li > a {font-weight: bold }
+.dropdown-menu > li > a:hover { color: #fff; padding-left: 25px; transition: all .5s ease ;}
+
+.navbar-inverse .navbar-brand {font-weight: bold; font-size: 25px; }
+/* End Navbar */ 
+
+/* Start Slider */
+.carousel-inner { height: 370px}
+
+.carousel-inner .black {
+    background: #000;
+    opacity: .6;
+    width: 100%;
+    height: 100%;
+    position: absolute
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img { width: 100%; height: 100%}
+
+.carousel-indicators .active {  border: none; height: 12px; width: 12px}
+
+.carousel-indicators li { border: 1.5px solid #df9a02}
+
+.carousel-caption { padding-bottom: 9%}
+
+.carousel-caption .h1 { font-size: 40px; font-weight: bolder}
+
+.carousel-caption p { font-size: 20px}
+/* End Slider */
+
+/* Start Section */
+
+.sec { background-color: #eee; color: #333; padding: 50px 0;}
+
+.sec .h1 {  margin-bottom: 15px; font-weight: bold}
+
+.sec .h1 span,.sec h2 span{ font-weight: bold}
+
+/* End Section */
+
+/* Start Proop */
+
+.sec2 {  background: #333;  color: #ccc}
+.sec2 span {font-size: bold  }
+.sec2 .glyphicon {  font-size: 30px;}
+
+.sec2 .h1 { font-weight: bold; margin: 40px 0 }
+
+.sec2 .prop { margin-bottom: 25px}
+
+/* End Proop */
+
+/* Start Testimonials */
+.test {padding-top: 40px;background: #eee ;height: 370px}
+
+.test .h1 {font-weight: bold; margin-bottom: 25px; margin-top: 0; }
+
+.test p {line-height: 1.7 ; font-size: 18px} 
+.test span {font-weight: bold; font-size: 18px;font-family: italic }
+
+.test strong {font-family: italic; font-weight: bold; font-size: 50px;}
+
+.test .carousel-inner {height: 135px}
+
+.test .carousel-indicators {width: 100%;margin: 0 auto ; position: static}
+
+.test .carousel-indicators li {height: 50px;width: 50px;position: relative;border-radius: 50%;overflow: hidden;border: 2px solid #333;
+    margin: 0 5px 50px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;}
+
+.test .carousel-indicators li img { height: 100%;  width: 100%;  position: absolute;  border-radius: 50%;  left: 0}
+
+.test .carousel-indicators .active { background: none;  height: 54px; width: 54px }
+
+/* End Testimonials */
+
+/* Start Services */
+
+.service { background: #333; color: #eee;  padding-top: 40px;  padding-bottom: 50px}
+
+.service .h1 { font-weight: bold; margin-bottom: 30px}
+
+.service span { font-family: italic; font-size: 40px}
+
+.service .box { background: #777; border: 20px solid #333; padding: 10px; margin: 20px 0 40px}
+
+.service .box h2 { font-weight: bold; margin-bottom: 25px}
+
+.service .box p { background: #555; padding: 10px; border-radius: 50%; font-weight: bold; margin-bottom: 20px; height: 55px; width: 55px; margin-left: 42%; line-height: 30px;color: #ffc603;}
+
+.service .box ul {margin: 40px 0  }
+
+.service .box a { margin-bottom: 25px }
+
+.service .box:hover p {
+    -webkit-transform: scale(1.2,1.2) rotate(360deg);
+    -moz-transform: scale(1.2,1.2) rotate(360deg);
+    -o-transform: scale(1.2,1.2) rotate(360deg);
+    transform: scale(1.2,1.2) rotate(360deg);}
+
+/* End Services */
+
+/* Start Team */
+
+.team { background: url('../images/port.jpg') no-repeat center center fixed; min-height: 450px; color: #eee;}
+
+.team .over {  background: rgba(0,0,0,0.7); width: 100%; min-height: 600px}
+
+.team .h1 {font-weight: bold; margin: 40px 0 }
+
+
+.team span,.sub span{font-family: italic; font-weight: bold;  font-size: 40px }
+
+.team .person {  margin-bottom: 30px ;background-attachment: }
+
+.team .person img { border-radius: 50% }
+
+.team .person h3 { font-family: italic;font-weight: bold }
+
+/* End Team */
+
+/* Start Subscribe */
+
+.sub {  background: #eee; color: #333; min-height: 300px; padding-top: 50px; padding-bottom: 60px}
+.sub .h1 { padding-bottom: 25px; font-weight: bold }
+.sub input { width: 300px;  height: 35px; margin-right: -4px }
+
+.sub .btn-warning { border-radius: 0; height: 36px}
+
+/* End Subscribe */
+
+/* Start Stat */
+
+.stat { background: url('../images/cover.jpg') no-repeat center center fixed; min-height: 400px; color: #eee}
+
+.stat .over { background: rgba(0,0,0,0.7); width: 100%; min-height: 400px}
+
+.stat .h1 { font-weight: bold; margin-bottom: 30px; margin-top: 40px }
+
+.stat .h1 span{ font-weight: bold;  font-size: 40px; font-family: italic} 
+
+.stat i { margin-bottom: 15px}
+
+.stat p { font-weight: bold; font-size: 45px;  margin-bottom: 60px}
+/* End Stat */
+
+/* Start Skills */
+
+.skills { background: #eee; color: #333; padding-bottom: 60px; padding-top: 40px}
+
+.skills .progress-bar { line-height: 32px; font-weight: bold; color: #eee}
+
+.skills .info { margin-right: 70px}
+.skills .h1 {font-weight: bold;margin-bottom: 50px}
+.skills span { font-weight: bold; font-size: 40px; font-family: italic }
+
+.skills h3 { margin-top: 0;  margin-bottom: 40px; font-weight: bold }
+
+.skills .progress{ margin-bottom: 36px; height: 30px;}
+
+.skills .progress:first-of-type { margin-top: 15px }
+/* End Skills */ 
+
+/* Start Contact Us */
+
+.contact { background: url("../images/01.jpg") center center fixed no-repeat; min-height: 400px; color: #eee; text-align: center }
+
+.contact .over { background: rgba(0,0,0,.7); width: 100%; min-height: 400px; padding-bottom: 60px; padding-top: 40px}
+
+.contact .h1 { margin-bottom: 40px;font-weight: bold}
+.contact span { font-weight: bold; font-size: 40px; font-family: italic}
+
+.contact .form-control { margin-bottom: 15px }
+.contact textarea { height: 82px }
+
+.contact textarea, .contact input { background: rgba(82,76,76,0.7); border: none; color: #eee }
+
+/* End Contact Us */
+
+/* Start Footer */
+
+.footer { background: #333; color: #eee; text-align: center; padding-bottom: 50px; padding-top: 40px;overflow: hidden}
+
+.footer span {font-weight: bold;  font-size: 25px; font-family: italic }
+
+.footer p { margin-bottom: 0}
+
+.footer .social { margin-left: 42%; overflow: hidden; padding: 15px 30px 20px;}
+
+.footer i { float: left; margin-right: 10px;}
+
+.footer i:hover {
+    -webkit-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+    -o-transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5);}
+
+
+/* End Footer */ 
+
+/* Start Option Box */
+
+.option { position: fixed; top: 50px; left: 0; width: 200px; height: 100px; overflow: hidden; z-index: 900}
+
+.option .color {float: left; color: #eee; background: #333; width: 140px; display: none}
+
+.option i {float: left;background: #fff;padding: 2px;cursor: pointer}
+
+.option ul {margin-left: 30px}
+
+.option li { display: inline-block; width: 15px; height: 15px; background: #00f; margin-right: 5px; cursor: pointer}
+
+/* End Option Box */ 
+
+/* Start Load */
+
+#load { background: #333;color: #eee; position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 999999; display: none}
+
+#load .h1 { margin-top: 250px }
+
+/* End Load */
+
+/* Start Scroll Up */
+
+.scroll { width: 60px;height: 40px;background: #333;color: #fff;position: fixed; bottom: 65px; right: -11px;padding: 3px;cursor: pointer;
+    display: none; opacity: 0.6; border-top-left-radius: 10px;  border-bottom-left-radius: 10px; padding-bottom: 50px }
+
+/* End Scroll Up */ 
+
+/* Start Global */
+
+.footer i,.service .box p {
+     -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.contact, .team {
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}

@@ -1,0 +1,68 @@
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus,
+.dropdown-menu > li > a:hover,
+.carousel-indicators .active {
+       background-color: #df9a02;
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a,
+.dropdown-menu > li > a,
+.team span,
+.sub span,
+.glyphicon-chevron-left:before ,
+.glyphicon-chevron-right:before,
+.navbar-inverse .navbar-brand,
+.carousel-caption,
+.sec h1 span,
+.sec h2 span,
+.sec2 .glyphicon,
+.sec2 .glyphicon,
+.service span,
+.team .person h3,
+.stat h1 span,
+.skills span,
+.sec2 span,
+.over span,
+.skills h3, .contact span ,.footer span , .footer i:hover  {
+        color: #ffc603;
+}
+
+.navbar-nav > li > .dropdown-menu{
+        border-top: 2px solid #df9a02;
+}
+
+.dropdown-menu .divider {
+    background: #ffc603
+}
+.sec2 h1 ,
+.test strong,
+.test span ,
+.stat i{
+        color: #df9a02;
+}
+
+
+
+.test .carousel-indicators .active {
+        border: 3px solid #df9a02;
+}
+
+.service .box p,
+.option .color,
+.option i{
+        border: 2px solid #ffc603;
+}
+
+.option i,
+.scroll{
+    background: #df9a02;
+    color: #fff
+}

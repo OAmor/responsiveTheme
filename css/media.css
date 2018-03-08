@@ -1,0 +1,32 @@
+/* Mobile And Tablets Screen */
+
+@media (max-width : 767px) {
+
+    .sub input {
+        margin-bottom: 15px
+    }
+    
+    .skills .info {
+        margin: auto
+    }
+    
+    .footer .social {
+        margin-left: 29%
+    }
+    
+    .scroll {
+        bottom: 0
+    }
+}
+
+/* Meduim Screen */ 
+
+@media (min-width : 768px)and (max-width: 1199px) {
+    
+}
+
+/* Large Screen */
+
+@media (min-width : 1200px) {
+    
+}
